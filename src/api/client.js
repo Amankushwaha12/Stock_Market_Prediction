@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: `${import.meta.env.VITE_API_BASE_URL}`,
+  baseURL: "https://amankushwaha007-stock-market-prediction.hf.space/",
   headers: {
     "Content-Type": "application/json",
   },
